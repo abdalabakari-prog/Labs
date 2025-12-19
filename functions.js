@@ -24,3 +24,12 @@ function isPalindrome(word) {
 function calculateDiscountedPrice(originalPrice, discountPercentage) {
     return originalPrice - (originalPrice * (discountPercentage / 100));
 }
+
+module.exports = {
+  calculateTax,
+  convertToUpperCase,
+  findMaximum,
+  isPalindrome,
+  calculateDiscountedPrice
+};
+
